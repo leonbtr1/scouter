@@ -32,7 +32,7 @@ Sustav ima dvije skupine korisnika: roditelje i administratora udruge.
 - Odobrava ili odbija prijave (na čekanju / odobreno / odbijeno)
 - Filtrira djecu po dobi ili skupini
 - Pregledava arhivu prošlih događaja
-- Preuzima popis sudionika u obliku Excel ili Google Sheets tablice
+- Preuzima popis sudionika u obliku csv-a.
 
 ## Poslovno pravilo
 
