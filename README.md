@@ -1,28 +1,40 @@
-# scouter
+# Scouter
 
-Aplikacija za prijavu djece u izviđačku udrugu i na događaje
+Web aplikacija za prijavu djece u izviđačku udrugu i na događaje koje udruga organizira.
 
-Tim: Leon Radola
-Ustanova: Fakultet informatike u Puli
-Kolegij: Programsko inženjerstvo
-Mentor: doc. dr. sc. Nikola Tanković
+## O projektu
 
-Pula, rujan 2026.
+- **Tim:** Leon Radola
+- **Ustanova:** [Fakultet informatike u Puli](https://fipu.unipu.hr)
+- **Kolegij:** [Programsko inženjerstvo](https://ntankovic.unipu.hr/pi)
+- **Mentor:** [doc. dr. sc. Nikola Tanković](https://ntankovic.unipu.hr)
 
-Kratki opis funkcionalnosti
+## Kratki opis
 
-Scouter je web aplikacija koja digitalizira prijavu djece u izviđačku udrugu i prijavu na događaje koje udruga organizira. Zamjenjuje papirnate prijavnice, ručno prepisivanje podataka i neorganizirane popise po porukama i Excel tablicama. Sustav ima dvije skupine korisnika: roditelje i administratora udruge.
+Scouter digitalizira prijavu djece u izviđačku udrugu i njihovu prijavu na
+događaje. Zamjenjuje papirnate prijavnice, ručno prepisivanje podataka i
+neorganizirane popise po porukama i Excel tablicama.
 
-Roditelj može:
+Sustav ima dvije skupine korisnika: roditelje i administratora udruge.
 
-prijaviti dijete u udrugu i unijeti njegove podatke (OIB, datum rođenja, adresa, alergije, lijekovi, posebne potrebe)
-pregledati dostupne događaje s brojem slobodnih mjesta i prijaviti jedno ili više djece iz iste obitelji
-dati roditeljsku suglasnost pri prijavi na događaj
-pregledati vlastite prijave i primiti potvrdu prijave na e-mail
+### Roditelj
 
-Administrator može:
+- Prijavljuje dijete u udrugu i unosi njegove podatke (OIB, datum rođenja,
+  adresa, alergije, lijekovi, posebne potrebe)
+- Pregledava dostupne događaje s brojem slobodnih mjesta
+- Prijavljuje jedno ili više djece iz iste obitelji na događaj
+- Daje roditeljsku suglasnost pri prijavi
+- Pregledava vlastite prijave i prima potvrdu prijave na e-mail
 
-dodavati, uređivati i brisati događaje te ograničiti maksimalan broj sudionika
-odobriti ili odbiti prijavu (status: na čekanju, odobreno, odbijeno)
-filtrirati djecu po dobi ili skupini i pregledati arhivu prošlih događaja
-preuzeti popis sudionika u obliku Excel ili Google Sheets tablice
+### Administrator
+
+- Dodaje, uređuje i briše događaje te ograničava maksimalan broj sudionika
+- Odobrava ili odbija prijave (na čekanju / odobreno / odbijeno)
+- Filtrira djecu po dobi ili skupini
+- Pregledava arhivu prošlih događaja
+- Preuzima popis sudionika u obliku Excel ili Google Sheets tablice
+
+## Poslovno pravilo
+
+Dijete se može prijaviti na događaj samo ako je prethodno prijavljeno kao
+član udruge. Sustav tu provjeru izvodi prije spremanja svake prijave.
