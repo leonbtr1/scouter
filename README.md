@@ -35,6 +35,3 @@ Sustav ima dvije skupine korisnika: roditelje i administratora udruge.
 - Preuzima popis sudionika u obliku Excel ili Google Sheets tablice
 
 LINK: https://scauter.netlify.app/
-
-Dijete se može prijaviti na događaj samo ako je prethodno prijavljeno kao
-član udruge. Sustav tu provjeru izvodi prije spremanja svake prijave.
