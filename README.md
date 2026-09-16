@@ -1,40 +1,38 @@
-# Scouter
+# scouter
 
-Web aplikacija za prijavu djece u izviđačku udrugu i na događaje koje udruga organizira.
+This template should help get you started developing with Vue 3 in Vite.
 
-## O projektu
+## Recommended IDE Setup
 
-- **Tim:** Leon Radola
-- **Ustanova:** [Fakultet informatike u Puli](https://fipu.unipu.hr)
-- **Kolegij:** [Programsko inženjerstvo](https://ntankovic.unipu.hr/pi)
-- **Mentor:** [doc. dr. sc. Nikola Tanković](https://ntankovic.unipu.hr)
+[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-## Kratki opis
+## Recommended Browser Setup
 
-Scouter digitalizira prijavu djece u izviđačku udrugu i njihovu prijavu na
-događaje. Zamjenjuje papirnate prijavnice, ručno prepisivanje podataka i
-neorganizirane popise po porukama i Excel tablicama.
+- Chromium-based browsers (Chrome, Edge, Brave, etc.):
+  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
+- Firefox:
+  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
+  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
 
-Sustav ima dvije skupine korisnika: roditelje i administratora udruge.
+## Customize configuration
 
-### Roditelj
+See [Vite Configuration Reference](https://vite.dev/config/).
 
-- Prijavljuje dijete u udrugu i unosi njegove podatke (OIB, datum rođenja,
-  adresa, alergije, lijekovi, posebne potrebe)
-- Pregledava dostupne događaje s brojem slobodnih mjesta
-- Prijavljuje jedno ili više djece iz iste obitelji na događaj
-- Daje roditeljsku suglasnost pri prijavi
-- Pregledava vlastite prijave i prima potvrdu prijave na e-mail
+## Project Setup
 
-### Administrator
+```sh
+npm install
+```
 
-- Dodaje, uređuje i briše događaje te ograničava maksimalan broj sudionika
-- Odobrava ili odbija prijave (na čekanju / odobreno / odbijeno)
-- Filtrira djecu po dobi ili skupini
-- Pregledava arhivu prošlih događaja
-- Preuzima popis sudionika u obliku csv-a.
+### Compile and Hot-Reload for Development
 
-## Poslovno pravilo
+```sh
+npm run dev
+```
 
-Dijete se može prijaviti na događaj samo ako je prethodno prijavljeno kao
-član udruge. Sustav tu provjeru izvodi prije spremanja svake prijave.
+### Compile and Minify for Production
+
+```sh
+npm run build
+```
