@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+body {
+    font-family: system-ui, sans-serif;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #10b981;
+}
