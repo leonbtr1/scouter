@@ -219,13 +219,3 @@ Administrator može filtrirati članove prema izviđačkoj skupini, preuzeti nji
 *Slika 7: Administratorsko upravljanje članovima udruge*
 
 ---
-
-## Popis slika
-
-1. Slika 1: Use Case dijagram sustava Scouter
-2. Slika 2: Klasni dijagram domene aplikacije Scouter
-3. Slika 3: Ekran za prijavu i registraciju roditelja
-4. Slika 4: Obrazac za prijavu djeteta i pregled statusa članstva
-5. Slika 5: Prijava djeteta na događaj i pregled vlastitih prijava
-6. Slika 6: Administratorsko upravljanje događajima i prijavama
-7. Slika 7: Administratorsko upravljanje članovima udruge
