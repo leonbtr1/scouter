@@ -176,46 +176,6 @@ Ograničenje ovog pristupa je da su podaci vidljivi samo u pregledniku u kojem s
 
 ---
 
-## 5. Korisničke upute
-
-### 5.1. Prijava i registracija roditelja
-
-Na početnom ekranu roditelj unosi e-mail adresu i lozinku te odabire **Prijavi se**. Ako još nema korisnički račun, odabire **Registriraj se**. Nakon uspješne prijave aplikacija ga preusmjerava na roditeljsko sučelje.
-
-![Ekran za prijavu i registraciju roditelja](slike/prijava-roditelja.png)
-
-*Slika 3: Ekran za prijavu i registraciju roditelja*
-
-### 5.2. Prijava djeteta u udrugu
-
-Roditelj u obrascu unosi podatke o djetetu, odabire izviđačku skupinu i po potrebi upisuje alergije, lijekove i posebne potrebe. Nakon odabira gumba **Prijavi dijete**, zahtjev se prikazuje u popisu **Moja djeca** sa statusom *na čekanju*. Kada administrator odobri članstvo, status se mijenja u *odobreno*.
-
-![Obrazac za prijavu djeteta i pregled statusa članstva](slike/prijava-djeteta.png)
-
-*Slika 4: Obrazac za prijavu djeteta i pregled statusa članstva*
-
-### 5.3. Prijava djeteta na događaj
-
-U dijelu **Prijava na događaj** roditelj odabire dijete i događaj, potvrđuje roditeljsku suglasnost te odabire **Prijavi na događaj**. U dijelu **Moje prijave** može pratiti je li prijava na čekanju, odobrena ili odbijena.
-
-![Prijava djeteta na događaj i pregled vlastitih prijava](slike/prijava-na-dogadaj.png)
-
-*Slika 5: Prijava djeteta na događaj i pregled vlastitih prijava*
-
-### 5.4. Upravljanje događajima i prijavama
-
-Administrator u gornjem dijelu sučelja dodaje novi događaj unosom naziva, lokacije, datuma, najvećeg broja sudionika i opisa. U popisu događaja može uređivati, arhivirati ili obrisati događaj, preuzeti popis sudionika te odobriti ili odbiti pojedinu prijavu.
-
-![Administratorsko upravljanje događajima i prijavama](slike/admin-dogadaji.png)
-
-*Slika 6: Administratorsko upravljanje događajima i prijavama*
-
-### 5.5. Upravljanje članovima udruge
-
-Administrator može filtrirati članove prema izviđačkoj skupini, preuzeti njihov popis u CSV formatu, odobriti zahtjev za članstvo ili obrisati člana iz evidencije.
-
-![Administratorsko upravljanje članovima udruge](slike/admin-clanovi.png)
-
 *Slika 7: Administratorsko upravljanje članovima udruge*
 
 ---
