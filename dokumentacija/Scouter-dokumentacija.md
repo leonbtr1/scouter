@@ -175,7 +175,3 @@ Spremnik koristi dodatak `pinia-plugin-persistedstate`, zbog čega se sadržaj s
 Ograničenje ovog pristupa je da su podaci vidljivi samo u pregledniku u kojem su uneseni. U stvarnoj upotrebi to bi se riješilo uvođenjem Firestore baze, pri čemu bi struktura klasa iz poglavlja 3.4 ostala ista, a promijenio bi se samo način dohvaćanja i spremanja podataka unutar spremnika.
 
 ---
-
-*Slika 7: Administratorsko upravljanje članovima udruge*
-
----
