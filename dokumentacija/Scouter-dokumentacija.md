@@ -170,8 +170,5 @@ Takvo rješenje znači da se poslovno pravilo nalazi na jednom mjestu, u spremni
 
 ### 4.3. Trajnost podataka
 
-Spremnik koristi dodatak `pinia-plugin-persistedstate`, zbog čega se sadržaj spremnika automatski zapisuje u local storage preglednika i učitava pri ponovnom otvaranju aplikacije. Podaci tako preživljavaju osvježavanje stranice.
-
-Ograničenje ovog pristupa je da su podaci vidljivi samo u pregledniku u kojem su uneseni. U stvarnoj upotrebi to bi se riješilo uvođenjem Firestore baze, pri čemu bi struktura klasa iz poglavlja 3.4 ostala ista, a promijenio bi se samo način dohvaćanja i spremanja podataka unutar spremnika.
-
+Spremnik koristi dodatak `pinia-plugin-persistedstate`, zbog čega se sadržaj spremnika automatski zapisuje u local storage preglednika i učitava pri ponovnom otvaranju aplikacije. Podaci tako preživljavaju osvježavanje stranice. Ograničenje ovog pristupa je da su podaci vidljivi samo u pregledniku u kojem su uneseni.
 ---
